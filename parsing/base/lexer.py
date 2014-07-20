@@ -15,7 +15,7 @@ class ParseError(Exception):
     pass
 
 
-class Token:
+class Token(object):
     """
     Token object
     """
@@ -28,7 +28,7 @@ class Token:
                                                                  string=self.string)
 
 
-class Lexer:
+class Lexer(object):
     """
     Lexer base class
     """
