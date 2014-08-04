@@ -35,3 +35,5 @@ EQUALS = 11
 NAME = 12
 
 EMPTY = [' ', '\t', '\r', '\n']
+
+MEMO_FAILED = -1
